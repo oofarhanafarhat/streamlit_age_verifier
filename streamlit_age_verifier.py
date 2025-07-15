@@ -10,7 +10,9 @@ if st.button("Check Age"):
         st.info("You are respected and valuable for us. Please share your life experience and guide us.")
     elif age_input >= 18:
         st.success("You are an adult.")
+        st.success("You can make your own decisions.")
         st.info("Welcome! Make your life meaningful and responsible.")
+        st.info("Remember to take care of your health and well-being.")
     elif age_input >= 0:
         st.warning("You are a minor.")
         st.info("Enjoy your childhood, but always keep learning!")
